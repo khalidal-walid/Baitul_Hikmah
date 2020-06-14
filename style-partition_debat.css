@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'bebas neue';
+  -webkit-font-smoothing: antialiased;
+  background-color: #243441;
+}
+
+.detail {
+  width: 100%;
+  height: 10vh;
+  position: relative;
+}
+
+.topic {
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+  letter-spacing: 2px;
+  color: rgb(24, 169, 206);
+}
+
+.debat {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.kerajaan {
+  left: 0;
+  background-color: rgb(165, 59, 80);
+}
+
+.pembangkang {
+  right: 0;
+  background-color: darkcyan;
+}
+
+.center {
+  position: absolute;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.center h1 {
+  color: aliceblue;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.hujah {
+    position: absolute;
+    top: 15%;
+  /*width: 36rem;
+    height: 10rem; */
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+.kerajaan-form, .pembangkang-form{
+  width: 100%;
+  position: absolute;
+  margin-top: 1rem;
+  color: wheat;
+  letter-spacing: 2px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.name, .content, .position {
+  width: 37rem;
+  height: 2rem;
+}
+
+.content {
+  height: 15rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+
+input [type = text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+input[type=button] {
+  font-family: 'bebas neue';
+  font-size: 18px;
+  letter-spacing: 2px;
+  border: 3px solid #ccc;
+  color: black;
+  padding: 4px 8px;
+  text-decoration: none;
+  margin: 3px 1px;
+  cursor: pointer;
+}
+
+input[type=button]:focus {
+  border: 3px solid #555;
+}
+
+@media (max-width: 960px){
+
+  .center {
+    left: 20%;
+  }
+
+  .name, .content, .position {
+    width: 13rem;
+    height: 2rem;
+  }
+  
+  .content {
+    height: 15rem;
+  }
+}
+
