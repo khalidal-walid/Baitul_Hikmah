@@ -16,7 +16,7 @@ Baitul Hikmah is an implementation of Asian Parlimentary competition format with
 
 ![Usul](./images/4.png)
 
-### Design Concept
+## CSS Concept
 Neumorphism 
 
 ## Web Flow
@@ -37,8 +37,6 @@ Neumorphism
     * Menteri Pertahanan
     * Menteri Pertama
 
-## CSS Design
-Implementation of Neumorphism style into my landing page.
 
 ## Contribution
 Contributions are welcome and are greatly appreciated!
