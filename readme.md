@@ -6,6 +6,19 @@
 
 Baitul Hikmah is an implementation of Asian Parlimentary competition format with two teams format. 
 
+## Overview 
+
+![Index](./images/1.png)
+
+![Kerajaan](./images/2.png)
+
+![Pembangkang](./images/3.png)
+
+![Usul](./images/4.png)
+
+### Design Concept
+Neumorphism 
+
 ## Web Flow
 1. User can choose which side that he/she represented. It either kerajaan (goverment) or pembangkang (opposition)
 .
